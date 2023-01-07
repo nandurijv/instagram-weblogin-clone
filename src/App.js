@@ -31,7 +31,7 @@ function App() {
             exact
             path="/"
             element={
-              count&&<Login/>
+              !count&&<Login/>
             }
           />
         </Routes>
