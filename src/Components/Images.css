@@ -1,0 +1,38 @@
+.imageStyles{
+    background-color:#000;
+    border:10px solid black;
+    border-radius:2rem;
+    position:relative;
+    box-shadow: 0 0 0 2px gray,0px 0px 0px 5px #000;
+}
+.backImg{
+    background-color:#000;
+    border:10px solid black;
+    border-radius:2rem;
+    position:relative;
+    box-shadow: 0 0 0 2px gray,0px 0px 0px 5px #000;
+}
+.imageStyles::after{
+        position:absolute;
+        content:"";
+        height:10px;
+        width:50px;
+        border:2px solid #000;
+        background-color:#000;
+        margin-left:-60%;
+        margin-top:-5px;
+        border-radius:1.2rem;
+        box-shadow:0px 0 5px gray;
+}
+.imageStyles img{
+    opacity:0%;
+    animation: a1 5s linear 0s infinite forwards;
+}
+@keyframes a1{
+    50%{
+        opacity:100%;
+    }
+    to{
+        opacity:0%;
+    }
+}
