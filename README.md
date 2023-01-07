@@ -1,2 +1,2 @@
-# instagram-weblogin-clone
+# Instagram-weblogin-clone
 Instagram Phishing Web Page
