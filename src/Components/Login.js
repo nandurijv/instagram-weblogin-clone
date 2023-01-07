@@ -18,7 +18,7 @@ function Login() {
           <div><Form/></div>
         </div>
       </div>
-      <div style={{padding:"60px"}}>Footer will come here</div>
+      <div style={{padding:"60px"}}>Made with ❤️ by Nanduri Jayant Vishnu</div>
     </>
   );
 }

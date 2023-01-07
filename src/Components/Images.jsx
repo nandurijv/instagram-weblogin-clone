@@ -14,7 +14,7 @@ function Images() {
     })
   return (
     <div style={{position:"relative"}}>
-    <img className="backImg" src={`/${imageArray[2]}`} height="550" alt="" style={{position: 'absolute',left:"-45%",top:"-3%",boxShadow:"0 30px 0 #000",position:"absolute"}} />
+    <img className="backImg" src={`/${imageArray[2]}`} height="550" alt="" style={{position: 'absolute',left:"-45%",top:"-3%",boxShadow:"0 30px 0 #000"}} />
       <div className="imageStyles">
         <img src={`/${imageArray[imageIndex]}`} height="560" alt="" />
       </div>
