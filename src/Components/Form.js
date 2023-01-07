@@ -4,12 +4,12 @@ const box1 = {
     border:'2px solid #eaeaea',
     backgroundColor:"#fff",
     width:'300px',
-    height:"350px",
+    // height:"350px",
     display:"flex",
     flexDirection:'column',
     justifyContent:"space-around",
     alignItems:"center",
-    gap:"0.5rem"
+    gap:"0.8rem"
 }
 const box2 = {
     padding:"2rem",
@@ -49,8 +49,8 @@ function Form() {
             <input type="password" htmlFor="username" placeholder="Password" style={{width:"75%",padding:"0.6rem",fontSize:"12px",border:"1px solid ",borderColor:"rgb(104,104,104,0.5)",backgroundColor:"#fafafa",borderRadius:"5px",outline:"none"}}/>
 
             <button style={button}>Log in</button>
-            <div style={{display:"flex",alignItems: "center",justifyContent:"center",gap:"0.5rem",fontFamily:"Poppins",color:"gray",fontWeight:"500"}} ><div style={{width:"50px",border:"1px solid #dbdbdb",height:"0"}}></div>OR<div style={{width:"50px",border:"1px solid #dbdbdb",height:"0"}}></div></div>
-            <div style={{color:"#385185"}}><b>Login with Facebook</b></div>
+            <div style={{display:"flex",alignItems: "center",justifyContent:"center",gap:"1rem",fontFamily:"Poppins",color:"gray",fontWeight:"500",fontSize:"12px"}} ><div style={{width:"100px",border:"1px solid #dbdbdb",height:"0"}}></div>OR<div style={{width:"100px",border:"1px solid #dbdbdb",height:"0"}}></div></div>
+            <div style={{color:"#385185",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"14px"}}><div><img src="/facebook.png" height="25" alt=""/></div><div><b>Login with Facebook</b></div></div>
             <div style={{fontSize:'12px'}}>Forgot password</div>
 
         </div>
