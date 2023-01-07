@@ -10,7 +10,6 @@
     border:10px solid black;
     border-radius:2rem;
     position:relative;
-    box-shadow: 0 0 0 2px gray,0px 0px 0px 5px #000;
 }
 .imageStyles::after{
         position:absolute;

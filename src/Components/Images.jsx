@@ -13,12 +13,12 @@ function Images() {
         }
     })
   return (
-    <>
-    <img className="backImg" src={`/${imageArray[2]}`} height="450" alt="" style={{position: 'absolute',left:"28%",top:"5%",boxShadow:"0 30px 0 #000"}} />
+    <div style={{position:"relative"}}>
+    <img className="backImg" src={`/${imageArray[2]}`} height="550" alt="" style={{position: 'absolute',left:"-45%",top:"-3%",boxShadow:"0 30px 0 #000",position:"absolute"}} />
       <div className="imageStyles">
-        <img src={`/${imageArray[imageIndex]}`} height="500" alt="" />
+        <img src={`/${imageArray[imageIndex]}`} height="560" alt="" />
       </div>
-    </>
+    </div>
   );
 }
 

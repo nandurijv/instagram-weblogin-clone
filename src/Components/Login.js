@@ -1,5 +1,6 @@
 import React from "react";
 import Images from "./Images";
+import Form from "./Form";
 const flexStyle={
   display: 'flex',
   alignItems: 'center',
@@ -14,7 +15,7 @@ function Login() {
         <div style={flexStyle}>
           {/* <Images/> */}
           <Images/>
-          <div>Login will come here</div>
+          <div><Form/></div>
         </div>
       </div>
       <div style={{padding:"60px"}}>Footer will come here</div>
